@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Covid Tracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="death">Death</string>
+    <string name="no_of_recovered">No of Recovered</string>
+    <string name="cases">Cases</string>
+    <string name="no_of_cases">No of Cases</string>
+    <string name="recovered">Recovered</string>
+    <string name="no_of_deaths">No of Deaths</string>
+</resources>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="World Wide Record"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:baselineAligned="false">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/cases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cases"
+                        android:padding="4dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/noOfCasesWorld"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No of Cases"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/red"
+                        android:padding="4dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/Recovered"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Recovered"
+                        android:padding="4dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/noOfRecoveredWorld"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No of Recovered"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/green"
+                        android:padding="4dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/deathsWorld"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Death"
+                        android:padding="4dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/noOfDeathsworld"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No of Deaths"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/blue"
+                        android:padding="4dp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indian Records"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/casesIndia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cases"
+                        android:padding="4dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/noOfCasesIndia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No of Cases"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/red"
+                        android:padding="4dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/RecoveredIndia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Recovered"
+                        android:padding="4dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/noOfRecoveredIndia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No of Recovered"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/green"
+                        android:padding="4dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/deathsIndia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Death"
+                        android:padding="4dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/noOfDeathsIndia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No of Deaths"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/blue"
+                        android:padding="4dp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stateRV" />
+
+</LinearLayout>
